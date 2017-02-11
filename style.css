@@ -27,7 +27,6 @@ p {
 }
 
 .donate-btn {
-  background-color: blue;
   width: 180px;
   text-align: center;
   padding: 20px;
@@ -38,6 +37,14 @@ p {
   color: white;
   line-height: 1.8em;
   font-size: 1.1em;
+}
+
+.venmo {
+  background-color: #3d95ce;
+}
+
+.act-blue {
+  background-color: #009cde;
 }
 
 img {
