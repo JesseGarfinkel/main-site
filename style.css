@@ -63,6 +63,15 @@ img {
   #sidebar div {
     margin: 40px 30px;
   }
+
+  #sidebar div a {
+    color: #24a3dc;
+    text-decoration: none;
+  }
+
+  #sidebar div a:hover {
+    color: black;
+  }
 }
 
 @media (max-width: 1000px) {
