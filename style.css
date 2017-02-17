@@ -6,8 +6,8 @@ html, body {
 }
 
 #main-column {
-  max-width: 450px;
-  margin: 40px auto;
+  max-width: 500px;
+  margin: 20px auto;
   padding: 20px;
 }
 
@@ -26,9 +26,17 @@ img#portrait {
   border: 4px solid black;
 }
 
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
 h2 {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -81,11 +89,11 @@ img {
     height: 1000px;
     padding-top: 20px;
     border-right: 4px solid black;
-    width: 240px;
+    width: 200px;
   }
 
   #sidebar div {
-    margin: 40px 30px;
+    margin: 40px 30px 40px 20px;
   }
 
   #sidebar div a {
@@ -108,5 +116,15 @@ img {
 }
 
 #logo {
-  margin-bottom: 45px;
+  margin: 20px auto;
+  text-align: center;
+  height: 75px;
+  display: inline-block;
+  text-align: center;
+}
+
+#header-logo-wrapper {
+  text-align: center;
+  position: relative;
+  right: 10px;
 }
