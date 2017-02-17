@@ -38,12 +38,12 @@
         <a class="scrollLink" data-destination="#when-is-e-day">When's election day?</a>
       </div>
     </div>
-    <div id="main-column">
+    <div id="main-column" class="with-sidebar">
       <img src="images/jesse-screenshot-logo.png" id="logo" />
       <section id="who-is-jesse">
         <h2>Who is Jesse Garfinkel?</h2>
-        <p>Jesse is a high school economics teacher in Chicago, a resident of Lakeview, and a soon-to-be dad.</p>
-        <img src="images/image.jpg">
+        <p>Jesse is a high school economics teacher in Chicago, a resident of Lakeview, and candidate for State Representative in Illinois's 12th District.</p>
+        <img src="images/portrait.jpg" id="portrait">
       </section>
       <section id="why-is-he-running">
         <h2>Why is he running for state rep?</h2>
@@ -86,6 +86,7 @@
       </section>
       <section id="up-to-date">
         <h2>Stay up to date.</h2>
+        <div class="fb-page" data-href="https://www.facebook.com/ACLUofIllinois/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACLUofIllinois/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACLUofIllinois/">ACLU of Illinois</a></blockquote></div>
       </section>
       <section id="district-map">
         <h2>Am I in Jesse's district?</h2>
@@ -101,8 +102,16 @@
         <p>Add it to your calendar so you don't forget!</p>
       </section>
     </div>
+    <div id="fb-root"></div>
   </body>
 </html>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=138509909678479";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
 $('.scrollLink').click(function(e) {
   var destinationId = $(e.target).attr('data-destination');
