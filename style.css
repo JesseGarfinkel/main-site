@@ -13,6 +13,13 @@ html, body {
   padding: 20px;
 }
 
+@media (min-width: 1000px) {
+  #main-column {
+    position: relative;
+    left: 110px;
+  }
+}
+
 img {
   max-width: 450px;
 }
