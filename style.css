@@ -69,6 +69,7 @@ img {
     top: 0;
     height: 1000px;
     padding-top: 20px;
+    border-right: 4px solid black;
   }
 
   #sidebar div {
@@ -78,6 +79,7 @@ img {
   #sidebar div a {
     color: black;
     text-decoration: none;
+    font-style: italic;
   }
 
   #sidebar div a:hover {
@@ -89,4 +91,10 @@ img {
   #sidebar {
     display: none;
   }
+}
+
+#logo {
+  position: relative;
+  right: 35px;
+  margin-bottom: 35px;
 }

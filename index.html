@@ -3,20 +3,42 @@
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="sidebar" class="c-palepink">
-      <div><a href="#who-is-jesse">Who is Jesse?</a></div>
-      <div><a href="#why-is-he-running">Why is he running?</a></div>
-      <div><a href="#what-is-the-platform">What is his platform?</a></div>
-      <div><a href="#sounds-interesting">Learn more.</a></div>
-      <div><a href="#lets-talk-policy">Talk policy.</a></div>
-      <div><a href="#donate">Back the campaign.</a></div>
-      <div><a href="#up-to-date">Stay up to date.</a></div>
-      <div><a href="#district-map">Are you in the district?</a></div>
-      <div><a href="#when-is-e-day">When's election day?</a></div>
+      <div>
+        <a class="scrollLink" data-destination="#who-is-jesse">Who is Jesse?</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#why-is-he-running">Why is he running?</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#what-is-the-platform">What is his platform?</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#sounds-interesting">Learn more.</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#lets-talk-policy">Talk policy.</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#donate">Back the campaign.</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#up-to-date">Stay up to date.</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#district-map">Are you in the district?</a>
+      </div>
+      <div>
+        <a class="scrollLink" data-destination="#when-is-e-day">When's election day?</a>
+      </div>
     </div>
     <div id="main-column">
+      <img src="images/jesse-screenshot-logo.png" id="logo" />
       <section id="who-is-jesse">
         <h2>Who is Jesse Garfinkel?</h2>
         <p>Jesse is a high school economics teacher in Chicago, a resident of Lakeview, and a soon-to-be dad.</p>
@@ -80,3 +102,11 @@
     </div>
   </body>
 </html>
+<script>
+$('.scrollLink').click(function(e) {
+  var destinationId = $(e.target).attr('data-destination');
+   $('html, body').animate({
+    scrollTop: $(destinationId).offset().top
+   }, 500);
+});
+</script>
