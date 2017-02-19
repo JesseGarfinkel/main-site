@@ -129,3 +129,8 @@ img {
   position: relative;
   right: 10px;
 }
+
+.subhead {
+  line-height: 1.8em;
+  font-size: 1.6em;
+}
