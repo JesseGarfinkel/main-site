@@ -1,0 +1,22 @@
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.8em;
+  font-size: 1.1em;
+}
+
+.subhead {
+  line-height: 1.8em;
+  font-size: 1.6em;
+}
