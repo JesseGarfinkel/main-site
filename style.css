@@ -90,6 +90,7 @@ img {
     padding-top: 20px;
     border-right: 4px solid black;
     width: 220px;
+    background-color: #efefef;
   }
 
   #sidebar div {
