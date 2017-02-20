@@ -64,20 +64,20 @@ img {
   position: fixed;
   top: 40px;
   left: 0px;
-  width: 220px;
+  width: 240px;
 }
 
 @media (min-width: 1000px) {
   #sidebar {
     top: 0;
     height: 3500px;
-    width: 220px;
+    width: 240px;
     background-color: #efefef;
     position: relative;
   }
 
   #sidebar .fixed-content div {
-    margin: 40px 30px 40px 20px;
+    margin: 40px 30px;
   }
 
   #sidebar .fixed-content div a {
