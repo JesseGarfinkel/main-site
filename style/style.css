@@ -87,3 +87,20 @@ img {
   position: relative;
   right: 10px;
 }
+
+#learn-more-wrapper {
+  text-align: center;
+  margin: 70px 0;
+  cursor: pointer;
+}
+
+#learn-more {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  font-style: italic;
+}
+
+#title {
+  margin-bottom: 70px;
+}
