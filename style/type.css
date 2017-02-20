@@ -1,5 +1,10 @@
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#sidebar div a {
+  font-family: 'Montserrat';
 }
 
 h1 {
@@ -8,15 +13,20 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  text-decoration: underline;
+  margin-bottom: 40px;
 }
 
 p {
   line-height: 1.8em;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 .subhead {
   line-height: 1.8em;
   font-size: 1.6em;
+}
+
+section {
+  font-family: 'Radley', sans-serif;
 }
