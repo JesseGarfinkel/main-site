@@ -45,9 +45,12 @@ img {
 
 #sidebar .fixed-content {
   position: fixed;
-  top: 40px;
+  top: 0;
   left: 0px;
   width: 240px;
+  height: 100vh;
+  background-color: #efefef;
+  padding-top: 40px;
 }
 
 @media (min-width: 1000px) {
