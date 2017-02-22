@@ -84,7 +84,7 @@ img {
 }
 
 #logo {
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
   height: 75px;
   display: inline-block;
@@ -93,8 +93,6 @@ img {
 
 #header-logo-wrapper {
   text-align: center;
-  position: relative;
-  right: 10px;
 }
 
 .button-wrapper {
