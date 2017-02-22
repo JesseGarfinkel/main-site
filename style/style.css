@@ -2,21 +2,6 @@
   margin-bottom: 40px;
 }
 
-#main-column {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
-@media (max-width: 1000px) {
-  #main-column {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-  }
-}
-
-
 img {
   max-width: 450px;
 }
@@ -37,6 +22,7 @@ img#portrait {
 
 section {
   margin-bottom: 80px;
+  width: 100%;
 }
 
 img {
@@ -57,7 +43,7 @@ img {
   #sidebar {
     top: 0;
     height: 3500px;
-    width: 240px;
+    flex: 0 0 240px;
     background-color: #efefef;
     position: relative;
   }
