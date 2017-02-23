@@ -24,16 +24,6 @@ img#portrait {
   margin: auto;
 }
 
-.section.outer {
-  margin: 80px 0;
-  width: 100%;
-}
-
-.section.inner {
-  max-width: 500px;
-  margin:auto;
-}
-
 img {
   max-width: 450px;
 }

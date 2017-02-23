@@ -1,0 +1,9 @@
+.section.outer {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.section.inner {
+  max-width: 500px;
+  margin:auto;
+}
