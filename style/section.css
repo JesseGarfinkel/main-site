@@ -3,9 +3,14 @@
   width: 100%;
 }
 
-.section.inner {
+.section.inner.full_width {
   max-width: 500px;
   margin:auto;
+}
+
+.section.inner.with_subsections {
+  display: flex;
+  flex-direction: row;
 }
 
 h1 {
@@ -20,3 +25,8 @@ h1 {
   border-bottom: 8px solid white;
 }
 
+.subsection {
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding: 0 80px;
+}
