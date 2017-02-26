@@ -2,30 +2,8 @@
   margin-bottom: 40px;
 }
 
-img {
-  max-width: 450px;
-}
-
 #main-column {
   width: 100%;
-}
-
-img#portrait {
-  border: 4px solid black;
-  border-radius: 240px;
-  width: 240px;
-  height: 240px;
-  text-align: center;
-}
-
-#portrait-wrapper {
-  width: 240px;
-  padding: 70px 0;
-  margin: auto;
-}
-
-img {
-  max-width: 450px;
 }
 
 #sidebar .fixed-content {
