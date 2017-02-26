@@ -99,3 +99,7 @@ a.button {
 a.button:hover {
   font-weight: bold;
 }
+
+.subsection.platform {
+  text-align: center;
+}

@@ -37,3 +37,11 @@ p {
 p.smallprint {
   font-size: 1.1em;
 }
+
+
+#platform {
+  font-family: 'Montserrat';
+  line-height: 1.8em;
+  font-size: 1.6em;
+  font-weight: bold;
+}
