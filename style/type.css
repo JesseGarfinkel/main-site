@@ -30,6 +30,10 @@ p {
   font-size: 1.4em;
 }
 
-section {
+.section {
   font-family: 'Radley', sans-serif;
+}
+
+p.smallprint {
+  font-size: 1.1em;
 }
