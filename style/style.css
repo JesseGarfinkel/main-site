@@ -102,4 +102,10 @@ a.button:hover {
 
 .subsection.platform {
   text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  text-align: center;
 }
