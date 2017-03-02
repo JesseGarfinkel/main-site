@@ -89,3 +89,13 @@ a.button:hover {
 .footer {
   text-align: center;
 }
+
+#harbor-photo {
+  background-image: url('../images/jesse-harbor.jpg');
+  margin: -80px 0;
+}
+
+#street-photo {
+  background-image: url('../images/jesse-street.jpg');
+  margin: -80px 0;
+}
