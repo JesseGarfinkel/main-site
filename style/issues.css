@@ -1,0 +1,41 @@
+div.issue_details {
+  display: none;
+}
+
+.toggle-issue {
+  cursor: pointer;
+}
+
+.toggle-issue.issue_closed::after {
+  content: '';
+  width: -5px;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #104c66 transparent;
+  position: relative;
+  bottom: 18px;
+  left: 6px;
+  transition: border-width 1.5s ease;
+  transition: border-color 1s ease;
+  opacity: 0.75;
+}
+
+.toggle-issue.issue_open::after {
+  content: '';
+  width: 5px;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 8px 0 8px;
+  border-color: #104c66 transparent;
+  position: relative;
+  top: 18px;
+  left: 6px;
+  transition: border-width 1.5s ease;
+  transition: border-color 1s ease;
+  opacity: 0.75;
+}
+
+div.issue_details.toggled_open {
+  display: inherit;
+}

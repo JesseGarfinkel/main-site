@@ -8,6 +8,7 @@
     <link href="style/type.css" rel="stylesheet">
     <link href="style/section.css" rel="stylesheet">
     <link href="style/img.css" rel="stylesheet">
+    <link href="style/issues.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -60,10 +61,10 @@
               <img src="images/il-white.svg" id="logo" height="25" width="30" class="logo_decorator" />
             </div>
           </div>
-          <h3 class="toggle-issue" data-issue="political-reform">
+          <h3 class="toggle-issue issue_closed" data-issue="political-reform">
             Political Reform and Restoring Our Democracy
           </h3>
-          <div class="issue_details" id="political-reform">
+          <div class="issue_details " id="political-reform">
             <p>Its no secret that Illinois has experienced demoralizing political corruption for generations.  We need to reform the system which keeps producing the same negative results and begin to restore our democracy. We simply cannot afford to wait for this change as millions of Illinois families continue to suffer due to longstanding political stagnation. There are many reforms that can be implemented right away to ameliorate this political blight.</p>
             <br/>
             <strong>Campaign Finance Reform</strong>
@@ -81,34 +82,34 @@
             <strong>Other Measures to Increase Political Participation</strong>
             <p>We should do everything we can to ensure that all citizens can participate in the political process as both voters and candidates. Potential reforms to achieve this goal include making election day a statewide holiday, automatic voter registration, simplifying the state’s arcane ballot access rules and moving the date of primary elections from March to June, in order to allow candidates to share their message during warmer weather months.</p>
           </div>
-          <h3 class="toggle-issue" data-issue="education">
+          <h3 class="toggle-issue issue_closed" data-issue="education">
             Education
           </h3>
-          <h3 class="toggle-issue" data-issue="economy">
+          <h3 class="toggle-issue issue_closed" data-issue="economy">
             Fixing the Budget and Making the Economy Work for Everyone
           </h3>
-          <h3 class="toggle-issue" data-issue="safety">
+          <h3 class="toggle-issue issue_closed" data-issue="safety">
             Public Safety
           </h3>
-          <h3 class="toggle-issue" data-issue="justice">
+          <h3 class="toggle-issue issue_closed" data-issue="justice">
             Criminal Justice Reform
           </h3>
-          <h3 class="toggle-issue" data-issue="lgbtq">
+          <h3 class="toggle-issue issue_closed" data-issue="lgbtq">
             LGBTQ Rights
           </h3>
-          <h3 class="toggle-issue" data-issue="womens-rights">
+          <h3 class="toggle-issue issue_closed" data-issue="womens-rights">
             Women's Rights
           </h3>
-          <h3 class="toggle-issue" data-issue="energy">
+          <h3 class="toggle-issue issue_closed" data-issue="energy">
             Energy and The Environment
           </h3>
-          <h3 class="toggle-issue" data-issue="seniors">
+          <h3 class="toggle-issue issue_closed" data-issue="seniors">
             Senior Citizens
           </h3>
-          <h3 class="toggle-issue" data-issue="housing">
+          <h3 class="toggle-issue issue_closed" data-issue="housing">
             Affordable Housing
           </h3>
-          <h3 class="toggle-issue" data-issue="other-issues">
+          <h3 class="toggle-issue issue_closed" data-issue="other-issues">
             Other Issues
           </h3>
         </div>
@@ -191,8 +192,18 @@ $('.scrollLink').click(function(e) {
 
 $('.toggle-issue').click(function (e) {
   var destinationId = $(e.target).attr('data-issue');
-  console.log(e.target);
-  console.log(destinationId);
-  $('#' + destinationId).addClass('toggled_open');
+
+  var targetEl = $(e.target)
+
+  if (targetEl.hasClass('issue_closed')) {
+    $(e.target).removeClass('issue_closed');
+    $(e.target).addClass('issue_open');
+    $('#' + destinationId).addClass('toggled_open');
+  } else {
+    $(e.target).removeClass('issue_open');
+    $(e.target).addClass('issue_closed');
+    $('#' + destinationId).removeClass('toggled_open');
+  }
+
 });
 </script>

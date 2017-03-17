@@ -95,18 +95,6 @@ a.button:hover {
   text-align: center;
 }
 
-div.issue_details {
-  display: none;
-}
-
-.toggle-issue {
-  cursor: pointer;
-}
-
-div.issue_details.toggled_open {
-  display: inherit;
-}
-
 #street-photo {
   background-image: url('../images/jesse-street.jpg');
   margin: -80px 0;
