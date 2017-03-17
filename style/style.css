@@ -99,6 +99,10 @@ div.issue_details {
   display: none;
 }
 
+.toggle-issue {
+  cursor: pointer;
+}
+
 div.issue_details.toggled_open {
   display: inherit;
 }
