@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -38,6 +38,16 @@ p.smallprint {
   font-size: 1.1em;
 }
 
+.issue_details p {
+  line-height: 1.6em;
+  font-size: 1.3em;
+}
+
+.issue_details strong {
+  line-height: 1.6em;
+  font-size: 1.3em;
+  font-style: italic;
+}
 
 #platform {
   font-family: 'Montserrat';

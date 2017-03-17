@@ -80,20 +80,27 @@ a.button:hover {
   font-weight: bold;
 }
 
-.subsection.platform {
+.platform {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.platform div {
+  margin: 0 30px;
+}
+
 .footer {
   text-align: center;
 }
 
-#harbor-photo {
-  background-image: url('../images/jesse-harbor.jpg');
-  margin: -80px 0;
+div.issue_details {
+  display: none;
+}
+
+div.issue_details.toggled_open {
+  display: inherit;
 }
 
 #street-photo {
