@@ -3,6 +3,7 @@ div.issue_details {
 }
 
 .toggle-issue {
+  margin-top: 36px;
   cursor: pointer;
 }
 
