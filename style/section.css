@@ -8,9 +8,11 @@
   margin:auto;
 }
 
-.section.inner.with_subsections {
-  display: flex;
-  flex-direction: row;
+@media (min-width: 1000px) {
+  .section.inner.with_subsections {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 h1 {
