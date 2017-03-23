@@ -38,3 +38,8 @@ div.issue_details {
 div.issue_details.toggled_open {
   display: inherit;
 }
+
+.subheader {
+  font-style: italic;
+  font-size: 1.4em;
+}
