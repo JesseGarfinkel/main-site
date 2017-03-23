@@ -1,0 +1,18 @@
+.button-wrapper {
+  text-align: center;
+  margin: 45px 125px;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 3px solid black;
+}
+
+.button-wrapper a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 1.6em;
+}
+
+.button-wrapper a:hover {
+  font-weight: bold;
+}

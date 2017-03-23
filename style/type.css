@@ -7,10 +7,6 @@ h1, h2, h3 {
   font-family: 'Montserrat';
 }
 
-a.button {
-  font-family: 'Montserrat';
-}
-
 h1 {
   font-size: 40px;
   margin-bottom: 16px;
@@ -26,16 +22,16 @@ p {
   font-size: 1.6em;
 }
 
-.button {
-  font-size: 1.4em;
-}
-
 .section {
   font-family: 'Radley', sans-serif;
 }
 
-p.smallprint {
+.smallprint {
   font-size: 1.1em;
+}
+
+.donate-smallprint {
+  margin-top: 12px;
 }
 
 .issue_details p {
