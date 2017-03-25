@@ -55,3 +55,12 @@ p {
   font-size: 1.6em;
   font-weight: bold;
 }
+
+a {
+  color: rgb(36, 18, 122);
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bold;
+}

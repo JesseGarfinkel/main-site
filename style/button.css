@@ -8,11 +8,6 @@
 }
 
 .button-wrapper a {
-  text-decoration: none;
   font-family: 'Montserrat';
   font-size: 1.6em;
-}
-
-.button-wrapper a:hover {
-  font-weight: bold;
 }
