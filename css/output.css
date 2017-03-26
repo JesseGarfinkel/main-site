@@ -96,7 +96,7 @@ div.issue_details.toggled_open {
 
 @media (min-width: 500px) {
   .section.outer#landing-section {
-    padding: 80px 0;
+    padding: 45px 0 80px 0;
     z-index: -10;
     position: fixed;
     top: 61px; }
