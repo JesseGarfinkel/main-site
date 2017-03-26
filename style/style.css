@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+h2#pink-underlined {
+  padding: 12px;
+  border-bottom: 8px solid rgb(245, 200, 181);
+}
+
 #logo {
   margin: 10px auto;
   text-align: center;
