@@ -3,15 +3,27 @@
   width: 100%;
 }
 
-.section.outer#landing-section {
-  padding: 80px 0;
-  z-index: -10;
-  position: fixed;
-  top: 61px;
+@media (min-width: 500px) {
+  .section.outer#landing-section {
+    padding: 80px 0;
+    z-index: -10;
+    position: fixed;
+    top: 61px;
+  }
+
+  div#lower-sections {
+    margin-top: 800px;
+  }
+
+  #scroll-to-learn-more {
+    display: inherit;
+  }
 }
 
-div#lower-sections {
-  margin-top: 800px;
+@media (max-width: 500px) {
+  #scroll-to-learn-more {
+    display: none;
+  }
 }
 
 .section.inner.full_width {
