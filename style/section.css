@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+.section.outer#landing-section {
+  z-index: -10; position: fixed; top: 61px;
+}
+
+div#lower-sections {
+  margin-top: 800px;
+}
+
 .section.inner.full_width {
   max-width: 550px;
   margin:auto;
