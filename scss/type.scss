@@ -1,5 +1,5 @@
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $sans-serif;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 .section {
-  font-family: 'Radley', sans-serif;
+  font-family: $sans-serif;
 }
 
 .smallprint {
@@ -51,7 +51,7 @@ p {
 }
 
 #platform {
-  font-family: 'Montserrat';
+  font-family: $sans-serif;
   line-height: 1.8em;
   font-size: 1.6em;
   font-weight: bold;

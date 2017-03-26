@@ -174,7 +174,7 @@ h2#pink-underlined {
   margin: -80px 0; }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center; }
 
 h1 {
@@ -197,7 +197,7 @@ p {
   font-size: 1.6em; }
 
 .section {
-  font-family: 'Radley', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 .smallprint {
   font-size: 1.1em; }
@@ -215,7 +215,7 @@ p {
   font-style: italic; }
 
 #platform {
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   line-height: 1.8em;
   font-size: 1.6em;
   font-weight: bold; }
