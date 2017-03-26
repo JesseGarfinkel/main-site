@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Jesse Garfinkel for State Rep</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Radley:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="style/base.css" rel="stylesheet">
+    <link href="style/color.css" rel="stylesheet">
+    <link href="style/type.css" rel="stylesheet">
+    <link href="style/section.css" rel="stylesheet">
+    <link href="style/img.css" rel="stylesheet">
+    <link href="style/issues.css" rel="stylesheet">
+    <link href="style/button.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/navbar.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="navbar-item page-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#set-up-a-meeting">Meet</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#vote">Vote</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#donate">Donate</a>
+      </div>
+      <div class="navbar-item page-item">
+        <a href="issues.html">Issues</a>
+      </div>
+      <div class="navbar-item page-item">
+        <a href="bio.html">Bio</a>
+      </div>
+    </div>
+    <div id="main-column">
+      <div class="section outer c-white">
+        <div class="section inner full_width">
+          <p>Jesse is a product of public schools and has been fighting to improve education and stand up for students his entire life.  As an 18 year old high school senior, he ran for an open seat on the Board of Education in his hometown in an effort to bring the student voice into the policymaking process.  As part of this endeavor, Jesse led a voter registration drive which helped register almost 100 students to vote. After getting accepted to Northwestern University, he withdrew from the race, came out to Chicagoland, and has stayed ever since.  He earned a B.A. in History and Political Science and an M.S. in Education, both from Northwestern.</p>
+
+          <p>Jesse is currently a Social Studies teacher in the Belmont-Cragin Neighborhood of Chicago.  He has taught every grade from 7th through 12th and currently teaches economics to seniors.  He also coaches boys and girls soccer and advises the school’s Student Council.</p>
+
+          <p>Jesse is active in his community, serving on the economic justice team of ONE Northside, an advocacy group that works to eliminate injustice through community organizing. He is the treasurer of his condo association and is a member of Anshe Emet Synagogue.</p>
+
+          <p>Jesse is married to the love of his life, Maggie, who is a school counselor in Lakeview.  They live in Lakeview with their dog, Simon, and are expecting their first child in April.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- <div id="fb-root"></div> -->
+  </body>
+</html>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=138509909678479";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+$('.scrollLink').click(function(e) {
+  var destinationId = $(e.target).attr('data-destination');
+   $('html, body').animate({
+    scrollTop: $(destinationId).offset().top
+   }, 500);
+});
+
+$('.toggle-issue').click(function (e) {
+  var destinationId = $(e.target).attr('data-issue');
+
+  var targetEl = $(e.target)
+
+  if (targetEl.hasClass('issue_closed')) {
+    $(e.target).removeClass('issue_closed');
+    $(e.target).addClass('issue_open');
+    $('#' + destinationId).addClass('toggled_open');
+  } else {
+    $(e.target).removeClass('issue_open');
+    $(e.target).addClass('issue_closed');
+    $('#' + destinationId).removeClass('toggled_open');
+  }
+
+});
+</script>
