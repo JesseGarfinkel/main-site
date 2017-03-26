@@ -15,3 +15,11 @@ img.portrait {
   padding-bottom: 70px;
   margin: auto;
 }
+
+div.centered-image {
+  text-align: center;
+}
+
+div.image-with-margin {
+  margin: 40px 0;
+}
