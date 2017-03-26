@@ -4,6 +4,7 @@
   width: 100%;
   background-color: rgb(205, 234, 247);
   display: flex;
+  border-bottom: 1px solid #ccc;
 }
 
 #navbar div {

@@ -1,10 +1,13 @@
 .section.outer {
-  padding: 80px 0;
+  padding: 100px 0;
   width: 100%;
 }
 
 .section.outer#landing-section {
-  z-index: -10; position: fixed; top: 61px;
+  padding: 80px 0;
+  z-index: -10;
+  position: fixed;
+  top: 61px;
 }
 
 div#lower-sections {
