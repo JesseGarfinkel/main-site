@@ -1,0 +1,21 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(205, 234, 247);
+  display: flex;
+}
+
+#navbar div {
+  float: left;
+  flex: 1;
+  padding: 24px;
+  text-align: center;
+}
+
+#navbar div a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}

@@ -12,11 +12,32 @@
     <link href="style/issues.css" rel="stylesheet">
     <link href="style/button.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/navbar.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
   </head>
   <body>
+    <div id="navbar">
+      <div class="navbar-item page-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#set-up-a-meeting">Meet</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#vote">Vote</a>
+      </div>
+      <div class="navbar-item sub-item">
+        <a href="index.html#donate">Donate</a>
+      </div>
+      <div class="navbar-item page-item">
+        <a href="issues.html">Issues</a>
+      </div>
+      <div class="navbar-item page-item">
+        <a href="bio.html">Bio</a>
+      </div>
+    </div>
     <div id="main-column">
       <div class="section outer" style="z-index: -10; position: fixed; top: 0;">
         <div id="who-is-jesse" class="section inner with_subsections">
@@ -68,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="section outer c-palepink">
+        <div id="set-up-a-meeting" class="section outer c-palepink">
           <div class="section inner full_width">
             <h2>Sounds interesting, but I'm not sure yet.</h2>
             <p>Jesse is running a grass-roots campaign. If you live in the district and have ideas you want to share with the campaign, <a href="#">reach out to Jesse and set up a meeting.</a></p>
@@ -81,10 +102,11 @@
             <!-- <a href="#">Check out the facebook page.</a> -->
           <!-- </div> -->
         <!-- </div> -->
-        <div class="section outer c-white">
+
+        <div id="vote" class="section outer c-white">
           <div id="district-map" class="section inner with_subsections">
             <div class="subsection">
-              <h2 id="when-is-e-day">When do I get to vote for Jesse?</h2>
+              <h2>When do I get to vote for Jesse?</h2>
               <p style="margin-top: 40px;"><strong style="font-family: 'Montserrat', sans-serif;">March 20, 2018.</strong></p>
               <p>Add the date to your calendar so you don't forget. And then <a href="#">tell your friends.</a></p>
             </div>
@@ -99,7 +121,7 @@
           </div>
         </div>
 
-        <div class="section outer c-palepink">
+        <div id="donate" class="section outer c-palepink">
           <div class="section inner full_width">
             <h2>I'm in. I want to help fund this campaign.</h2>
             <div class="button-wrapper c-paleblue">
