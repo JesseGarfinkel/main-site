@@ -24,7 +24,7 @@ h2#pink-underlined {
   margin-bottom: 60px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: $breakpoint-s) {
   #header-logo-wrapper {
     display: none;
   }

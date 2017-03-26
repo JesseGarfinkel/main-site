@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: $breakpoint-s) {
   .section.outer#landing-section {
     padding: 80px 0;
     z-index: -10;
@@ -32,7 +32,7 @@
   margin:auto;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: $breakpoint-m) {
   .section.inner.with_subsections {
     display: flex;
     flex-direction: row;
