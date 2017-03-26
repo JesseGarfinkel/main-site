@@ -12,7 +12,7 @@ html, body {
   border: 3px solid black; }
 
 .button-wrapper a {
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6em; }
 
 .c-paleblue {
@@ -76,8 +76,7 @@ div.issue_details.toggled_open {
   top: 0;
   width: 100%;
   background-color: #cdeaf7;
-  display: flex;
-  border-bottom: 1px solid #ccc; }
+  display: flex; }
 
 #navbar div {
   float: left;
@@ -88,7 +87,7 @@ div.issue_details.toggled_open {
 #navbar div a {
   color: black;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.1em; }
 
 .section.outer {
