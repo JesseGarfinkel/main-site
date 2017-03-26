@@ -1,0 +1,230 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.button-wrapper {
+  text-align: center;
+  margin: 45px;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 3px solid black; }
+
+.button-wrapper a {
+  font-family: 'Montserrat';
+  font-size: 1.6em; }
+
+.c-paleblue {
+  background-color: #cdeaf7; }
+
+.c-palepink {
+  background-color: #f5c8b5; }
+
+.c-white {
+  background-color: white; }
+
+.c-darkblue {
+  background-color: #24127a; }
+
+div.issue_details {
+  display: none;
+  margin-bottom: 80px; }
+
+.toggle-issue:first-of-type {
+  border-top: none; }
+
+.toggle-issue {
+  border-top: 3px solid #f5c8b5;
+  padding: 42px 0 24px 0;
+  cursor: pointer; }
+
+.toggle-issue::after {
+  content: '';
+  display: inline-block;
+  width: -5px;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent #f5c8b5 transparent;
+  margin-left: 4px; }
+
+.toggle-issue.issue_closed::after {
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  transition: transform .5s ease; }
+
+.toggle-issue.issue_open::after {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  transition: transform .5s ease; }
+
+div.issue_details.toggled_open {
+  display: inherit; }
+
+.subheader {
+  font-style: italic;
+  font-size: 1.4em; }
+
+#navbar {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #cdeaf7;
+  display: flex;
+  border-bottom: 1px solid #ccc; }
+
+#navbar div {
+  float: left;
+  flex: 1;
+  padding: 20px;
+  text-align: center; }
+
+#navbar div a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em; }
+
+.section.outer {
+  padding: 100px 0;
+  width: 100%; }
+
+@media (min-width: 500px) {
+  .section.outer#landing-section {
+    padding: 80px 0;
+    z-index: -10;
+    position: fixed;
+    top: 61px; }
+
+  div#lower-sections {
+    margin-top: 800px; }
+
+  #scroll-to-learn-more {
+    display: inherit; } }
+@media (max-width: 500px) {
+  #scroll-to-learn-more {
+    display: none; } }
+.section.inner.full_width {
+  padding: 0 30px;
+  max-width: 550px;
+  margin: auto; }
+
+@media (min-width: 1000px) {
+  .section.inner.with_subsections {
+    display: flex;
+    flex-direction: row; } }
+h1 {
+  border-bottom: 6px solid #cdeaf7; }
+
+.section.outer.c-white h2 {
+  border-bottom: 6px solid #cdeaf7; }
+
+.section.outer.c-palepink h2 {
+  border-bottom: 8px solid white; }
+
+.subsection {
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding: 0 80px; }
+
+#title {
+  margin-bottom: 40px; }
+
+#main-column {
+  width: 100%; }
+
+h2#pink-underlined {
+  padding: 12px;
+  border-bottom: 8px solid #f5c8b5; }
+
+#logo {
+  margin: 10px auto;
+  text-align: center;
+  height: 75px;
+  display: inline-block;
+  text-align: center; }
+
+#header-logo-wrapper {
+  text-align: center;
+  margin-bottom: 60px; }
+
+@media (max-width: 500px) {
+  #header-logo-wrapper {
+    display: none; } }
+.platform {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.platform div {
+  margin: 0 30px; }
+
+.footer {
+  text-align: center; }
+
+#street-photo {
+  background-image: url("../images/jesse-street.jpg");
+  margin: -80px 0; }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 16px; }
+
+h2 {
+  font-size: 1.85em; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+p {
+  line-height: 1.8em;
+  font-size: 1.5em; }
+
+.subhead {
+  line-height: 1.7em;
+  font-size: 1.6em; }
+
+.section {
+  font-family: 'Radley', sans-serif; }
+
+.smallprint {
+  font-size: 1.1em; }
+
+.donate-smallprint {
+  margin-top: 12px; }
+
+.issue_details p {
+  line-height: 1.6em;
+  font-size: 1.3em; }
+
+.issue_details strong {
+  line-height: 1.6em;
+  font-size: 1.3em;
+  font-style: italic; }
+
+#platform {
+  font-family: 'Montserrat';
+  line-height: 1.8em;
+  font-size: 1.6em;
+  font-weight: bold; }
+
+a {
+  color: #24127a;
+  text-decoration: underline; }
+
+a:hover {
+  font-weight: bold; }
+
+/*# sourceMappingURL=output.css.map */
