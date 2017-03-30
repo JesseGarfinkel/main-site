@@ -96,6 +96,11 @@ div.issue_details.toggled_open {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em; }
 
+.section.inner.full_width {
+  padding: 0 30px;
+  max-width: 550px;
+  margin: auto; }
+
 .section.outer {
   padding: 100px 0;
   width: 100%; }
@@ -111,35 +116,30 @@ div.issue_details.toggled_open {
     margin-top: 800px; }
 
   #scroll-to-learn-more {
-    display: inherit; } }
-@media (max-width: 500px) {
-  #scroll-to-learn-more {
-    display: none; } }
+    display: inherit; }
+
+  .subsection {
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 0 80px; } }
 @media (max-width: 500px) {
   .section.outer#landing-section {
-    padding: 140px 0; } }
-.section.inner.full_width {
-  padding: 0 30px;
-  max-width: 550px;
-  margin: auto; }
+    padding: 140px 0; }
 
+  #scroll-to-learn-more {
+    display: none; }
+
+  .subsection {
+    padding: 0 30px; } }
 @media (min-width: 1000px) {
   .section.inner.with_subsections {
     display: flex;
     flex-direction: row; } }
-h1 {
-  border-bottom: 6px solid #cdeaf7; }
-
 .section.outer.c-white h2 {
   border-bottom: 6px solid #cdeaf7; }
 
 .section.outer.c-palepink h2 {
   border-bottom: 8px solid white; }
-
-.subsection {
-  flex-grow: 1;
-  flex-basis: 50%;
-  padding: 0 80px; }
 
 #title {
   margin-bottom: 40px; }
@@ -191,7 +191,8 @@ h1, h2, h3 {
 
 h1 {
   font-size: 40px;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  border-bottom: 6px solid #cdeaf7; }
 
 h2 {
   font-size: 1.85em; }
