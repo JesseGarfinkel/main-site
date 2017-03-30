@@ -82,6 +82,8 @@ div.issue_details.toggled_open {
   width: 100%;
   background-color: #cdeaf7;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  /* Safari 6.1+ */
   flex-wrap: wrap; }
 
 #navbar div {

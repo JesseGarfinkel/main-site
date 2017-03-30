@@ -5,6 +5,7 @@
   width: 100%;
   background-color: $paleblue;
   display: flex;
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex-wrap: wrap;
 }
 
