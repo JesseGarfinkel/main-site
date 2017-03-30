@@ -37,6 +37,9 @@ div.issue_details {
 h3.toggle-issue {
   border-top: 3px solid #f5c8b5; }
 
+.subheader.toggle-issue {
+  margin-bottom: 14px; }
+
 .toggle-issue {
   padding: 42px 0 24px 0;
   cursor: pointer; }
