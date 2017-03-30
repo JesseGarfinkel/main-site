@@ -54,3 +54,9 @@ h2#pink-underlined {
   background-image: url('../images/jesse-with-student.JPG');
   margin: -100px 0;
 }
+
+@media (max-width: $breakpoint-s) {
+  #district-map-img {
+    display: none;
+  }
+}
