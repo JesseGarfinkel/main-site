@@ -26,6 +26,12 @@
   }
 }
 
+@media (max-width: $breakpoint-s) {
+  .section.outer#landing-section {
+    padding: 140px 0;
+  }
+}
+
 .section.inner.full_width {
   padding: 0 30px;
   max-width: 550px;

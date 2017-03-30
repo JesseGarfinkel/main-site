@@ -81,7 +81,8 @@ div.issue_details.toggled_open {
   top: 0;
   width: 100%;
   background-color: #cdeaf7;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 #navbar div {
   float: left;
@@ -114,6 +115,9 @@ div.issue_details.toggled_open {
 @media (max-width: 500px) {
   #scroll-to-learn-more {
     display: none; } }
+@media (max-width: 500px) {
+  .section.outer#landing-section {
+    padding: 140px 0; } }
 .section.inner.full_width {
   padding: 0 30px;
   max-width: 550px;
