@@ -38,7 +38,7 @@ h3.toggle-issue {
   border-top: 3px solid #f5c8b5; }
 
 .subheader.toggle-issue {
-  margin-bottom: 14px; }
+  margin-bottom: 15px; }
 
 .toggle-issue {
   padding: 42px 0 24px 0;
@@ -176,6 +176,10 @@ h2#pink-underlined {
 #street-photo {
   background-image: url("../images/jesse-street.jpg");
   margin: -80px 0; }
+
+#jesse-with-student {
+  background-image: url("../images/jesse-with-student.JPG");
+  margin: -100px 0; }
 
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
