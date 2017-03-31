@@ -55,8 +55,6 @@ h2#pink-underlined {
   margin: -100px 0;
 }
 
-@media (max-width: $breakpoint-s) {
-  #district-map-img {
-    display: none;
-  }
+#district-map-img {
+  max-width: 100%;
 }

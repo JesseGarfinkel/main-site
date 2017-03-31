@@ -187,9 +187,9 @@ h2#pink-underlined {
   background-image: url("../images/jesse-with-student.JPG");
   margin: -100px 0; }
 
-@media (max-width: 500px) {
-  #district-map-img {
-    display: none; } }
+#district-map-img {
+  max-width: 100%; }
+
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center; }
