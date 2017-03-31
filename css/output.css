@@ -82,15 +82,17 @@ div.issue_details.toggled_open {
   width: 100%;
   background-color: #cdeaf7;
   display: flex;
+  flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  /* Safari 6.1+ */
-  flex-wrap: wrap; }
+  /* Safari 6.1+ */ }
 
 #navbar div {
   float: left;
-  flex: 1;
+  display: block;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto; }
 
 #navbar div a {
   color: black;

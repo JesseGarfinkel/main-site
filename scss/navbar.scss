@@ -4,16 +4,20 @@
   top: 0;
   width: 100%;
   background-color: $paleblue;
+
   display: flex;
-  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
 }
 
 #navbar div {
   float: left;
-  flex: 1;
+  display: block;
   padding: 20px;
   text-align: center;
+
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
 }
 
 #navbar div a {
