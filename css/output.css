@@ -182,12 +182,15 @@ h2#pink-underlined {
 
 #street-photo {
   background-image: url("../images/jesse-street.jpg");
-  margin: -80px 0; }
+  margin: -80px 0;
+  background-repeat: no-repeat; }
 
 #jesse-with-student {
-  background-image: url("../images/jesse-with-student.JPG");
-  margin: -100px 0; }
+  background-image: url("../images/jesse-with-student.JPG"); }
 
+@media (min-width: 1300px) {
+  #jesse-with-student {
+    margin: -100px 0; } }
 #district-map-img {
   max-width: 100%; }
 
