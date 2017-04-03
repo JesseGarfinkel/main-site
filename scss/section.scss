@@ -1,3 +1,10 @@
+@media (min-width: $breakpoint-l) {
+  .section.inner.with_subsections {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .section.inner.full_width {
   padding: 0 30px;
   max-width: 550px;
@@ -43,13 +50,6 @@
 
   .subsection {
     padding: 0 30px;
-  }
-}
-
-@media (min-width: $breakpoint-m) {
-  .section.inner.with_subsections {
-    display: flex;
-    flex-direction: row;
   }
 }
 

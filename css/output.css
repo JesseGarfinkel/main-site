@@ -28,8 +28,7 @@ html, body {
   background-color: #24127a; }
 
 div.issue_details {
-  display: none;
-  margin-bottom: 80px; }
+  display: none; }
 
 .toggle-issue:first-of-type {
   border-top: none; }
@@ -100,6 +99,10 @@ div.issue_details.toggled_open {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em; }
 
+@media (min-width: 1300px) {
+  .section.inner.with_subsections {
+    display: flex;
+    flex-direction: row; } }
 .section.inner.full_width {
   padding: 0 30px;
   max-width: 550px;
@@ -135,10 +138,6 @@ div.issue_details.toggled_open {
 
   .subsection {
     padding: 0 30px; } }
-@media (min-width: 1000px) {
-  .section.inner.with_subsections {
-    display: flex;
-    flex-direction: row; } }
 .section.outer.c-white h2 {
   border-bottom: 6px solid #cdeaf7; }
 
