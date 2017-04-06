@@ -186,7 +186,8 @@ h2#pink-underlined {
   background-repeat: no-repeat; }
 
 #jesse-with-student {
-  background-image: url("../images/jesse-with-student.JPG"); }
+  background-image: url("../images/jesse-with-student.JPG");
+  background-repeat: no-repeat; }
 
 @media (min-width: 1300px) {
   #jesse-with-student {
