@@ -49,11 +49,13 @@ h2#pink-underlined {
   background-image: url('../images/jesse-street.jpg');
   margin: -80px 0;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #jesse-with-student {
   background-image: url('../images/jesse-with-student.JPG');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: $breakpoint-l) {
