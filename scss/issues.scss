@@ -2,24 +2,39 @@ div.issue_details {
   display: none;
 }
 
+div.issue_details.toggled_open {
+  display: inherit;
+}
+
+@media (min-width: $breakpoint-m) {
+  div.issue_details div.issue_details {
+    margin: 0 70px;
+  }
+  .subheader.toggle-issue {
+    margin: 0 70px;
+  }
+}
+
 .toggle-issue:first-of-type {
   border-top: none;
 }
 
 h3.toggle-issue {
-  border-top: 3px solid rgb(245, 200, 181);
+  margin-top: 50px;
+  border-bottom: 5px solid $palepink;
 }
 
 .subheader.toggle-issue {
-  margin-bottom: 15px;
+  border-bottom: 3px solid $paleblue;
 }
 
-.toggle-issue {
-  padding: 42px 0 24px 0;
-  cursor: pointer;
+.subheader {
+  font-style: italic;
+  font-size: 1.4em;
+  text-align: center;
 }
 
-.toggle-issue::after {
+h3.toggle-issue::after {
   content: '';
   display: inline-block;
   width: -5px;
@@ -27,6 +42,17 @@ h3.toggle-issue {
   border-style: solid;
   border-width: 0 8px 12px 8px;
   border-color: transparent transparent $palepink transparent;
+  margin-left: 4px
+}
+
+.subheader.toggle-issue::after {
+  content: '';
+  display: inline-block;
+  width: -5px;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 12px 8px;
+  border-color: transparent transparent $paleblue transparent;
   margin-left: 4px
 }
 
@@ -45,12 +71,11 @@ h3.toggle-issue {
   transform: scaleY(-1);
   transition: transform .5s ease;
 }
-
-div.issue_details.toggled_open {
-  display: inherit;
+.subheader.toggle-issue {
+  margin-bottom: 15px;
 }
 
-.subheader {
-  font-style: italic;
-  font-size: 1.4em;
+.toggle-issue {
+  padding: 42px 0 24px 0;
+  cursor: pointer;
 }
