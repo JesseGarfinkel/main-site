@@ -215,7 +215,8 @@ h2#pink-underlined {
 #jesse-with-student {
   background-image: url("../images/jesse-with-student.JPG");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: right; }
 
 @media (min-width: 1300px) {
   #jesse-with-student {
