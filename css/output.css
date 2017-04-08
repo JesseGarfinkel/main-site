@@ -43,7 +43,7 @@ div.issue_details.toggled_open {
   border-top: none; }
 
 h3.toggle-issue {
-  margin-top: 50px;
+  margin: 25px 0;
   border-bottom: 5px solid #f5c8b5; }
 
 .subheader.toggle-issue {
