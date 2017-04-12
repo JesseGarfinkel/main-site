@@ -1,5 +1,6 @@
 img {
-  max-width: 450px;
+  max-width: 100%;
+  height: auto;
 }
 
 img.portrait {
@@ -14,12 +15,4 @@ img.portrait {
   width: 300px;
   padding-bottom: 70px;
   margin: auto;
-}
-
-div.centered-image {
-  text-align: center;
-}
-
-div.image-with-margin {
-  margin: 40px 0;
 }
