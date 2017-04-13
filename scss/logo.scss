@@ -1,0 +1,21 @@
+.logo-img {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#who-is-jesse .logo-img {
+  margin: 20px 0 60px 0;
+}
+
+@media screen and (min-width: 500px) {
+  .logo-img {
+    background-image: url('../images/Garfinkel2018_logo.png');
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo-img {
+    background-image: url('../images/il-blue-small.svg');
+  }
+}

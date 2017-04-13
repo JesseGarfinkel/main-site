@@ -11,25 +11,6 @@ h2#pink-underlined {
   border-bottom: 8px solid $palepink;
 }
 
-#logo {
-  margin: 10px auto;
-  text-align: center;
-  height: 90px;
-  display: inline-block;
-  text-align: center;
-}
-
-#header-logo-wrapper {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-@media (max-width: $breakpoint-s) {
-  #header-logo-wrapper {
-    display: none;
-  }
-}
-
 .platform {
   text-align: center;
   display: flex;
