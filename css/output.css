@@ -100,19 +100,7 @@ h3.toggle-issue::after {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #cdeaf7;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  /* Safari 6.1+ */ }
-
-#navbar div {
-  float: left;
-  display: block;
-  padding: 20px;
-  text-align: center;
-  flex: 1 1 auto;
-  -webkit-flex: 1 1 auto; }
+  background-color: #cdeaf7; }
 
 #navbar div a {
   color: black;
@@ -120,6 +108,47 @@ h3.toggle-issue::after {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em; }
 
+#navbar .navbar-hamburger {
+  cursor: pointer; }
+
+#navbar .navbar-hamburger span {
+  height: 2px;
+  width: 30px;
+  background-color: black;
+  margin: 6px;
+  display: block; }
+
+@media screen and (min-width: 600px) {
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */ }
+
+  #navbar .navbar-item {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto; }
+
+  #navbar .navbar-hamburger {
+    display: none; } }
+@media screen and (max-width: 600px) {
+  #navbar.mobile-closed .navbar-item {
+    display: none; }
+
+  #navbar .navbar-hamburger {
+    float: right;
+    display: block;
+    padding: 20px; }
+
+  #navbar.mobile-open .navbar-item {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-align: center; } }
 @media (min-width: 1300px) {
   .section.inner.with_subsections {
     display: flex;
@@ -277,10 +306,10 @@ img {
 #who-is-jesse .logo-img {
   margin: 20px 0 60px 0; }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
   .logo-img {
     background-image: url("../images/Garfinkel2018_logo.png"); } }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .logo-img {
     background-image: url("../images/il-blue-small.svg"); } }
 

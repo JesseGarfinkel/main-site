@@ -8,13 +8,13 @@
   margin: 20px 0 60px 0;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: $breakpoint-m) {
   .logo-img {
     background-image: url('../images/Garfinkel2018_logo.png');
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: $breakpoint-m) {
   .logo-img {
     background-image: url('../images/il-blue-small.svg');
   }
