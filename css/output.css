@@ -226,9 +226,6 @@ h3.toggle-issue::after {
 @media (min-width: 1300px) {
   #jesse-with-student {
     margin: -100px 0; } }
-#district-map-img {
-  max-width: 100%; }
-
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center; }
