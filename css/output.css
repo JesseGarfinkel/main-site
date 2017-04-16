@@ -215,9 +215,6 @@ h2#pink-underlined {
 .platform div {
   margin: 0 30px; }
 
-.footer {
-  text-align: center; }
-
 #street-photo {
   background-image: url("../images/jesse-street.jpg");
   margin: -80px 0;
@@ -309,5 +306,7 @@ img {
 @media screen and (max-width: 1000px) {
   .logo-img {
     background-image: url("../images/il-blue-small.svg"); } }
+.footer {
+  text-align: center; }
 
 /*# sourceMappingURL=output.css.map */
