@@ -195,4 +195,17 @@ $('.toggle-issue').click(function (e) {
   }
 
 });
+
+$('.navbar-hamburger').click(function (e) {
+  var targetEl = $('#navbar');
+
+  if (targetEl.hasClass('mobile-closed')) {
+    $(e.target).removeClass('mobile-closed');
+    $(e.target).addClass('mobile-open');
+  } else {
+    $(e.target).removeClass('mobile-open');
+    $(e.target).addClass('mobile-closed');
+  }
+
+});
 </script>
