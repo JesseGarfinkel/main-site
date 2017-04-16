@@ -13,6 +13,11 @@ h2 {
   font-size: 1.85em;
 }
 
+h2#pink-underlined {
+  padding: 12px;
+  border-bottom: 8px solid $palepink;
+}
+
 h3 {
   font-size: 1.5em;
   font-weight: bold;
