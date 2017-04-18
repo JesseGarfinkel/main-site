@@ -10,7 +10,12 @@
             crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="navbar">
+    <div id="navbar" class="mobile-closed">
+      <div class="navbar-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div class="navbar-item page-item">
         <a href="index.html">Home</a>
       </div>
@@ -30,7 +35,6 @@
         <a href="bio.html">Bio</a>
       </div>
     </div>
-
     <div class="section outer">
       <div id="what-is-the-platform" class="section inner full_width wide">
         <h2>Issues</h2>
@@ -376,6 +380,20 @@ $('.toggle-issue').click(function (e) {
     $(e.target).removeClass('issue_open');
     $(e.target).addClass('issue_closed');
     $('#' + destinationId).removeClass('toggled_open');
+  }
+
+});
+
+
+$('.navbar-hamburger').click(function (e) {
+  var targetEl = $('#navbar');
+
+  if (targetEl.hasClass('mobile-closed')) {
+    $(targetEl).removeClass('mobile-closed');
+    $(targetEl).addClass('mobile-open');
+  } else {
+    $(targetEl).removeClass('mobile-open');
+    $(targetEl).addClass('mobile-closed');
   }
 
 });
