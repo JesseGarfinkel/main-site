@@ -145,8 +145,7 @@ h3.toggle-issue::after {
     padding: 20px; }
 
   #navbar.mobile-open .navbar-item {
-    float: left;
-    display: block;
+    display: inline-block;
     padding: 20px;
     text-align: center; } }
 @media (min-width: 1300px) {
