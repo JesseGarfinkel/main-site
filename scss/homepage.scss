@@ -19,16 +19,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#jesse-with-student {
-  background-image: url('../images/jesse-with-student.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-}
-
-@media (min-width: $breakpoint-l) {
-  #jesse-with-student {
-    margin: -100px 0;
-  }
-}

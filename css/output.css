@@ -198,6 +198,9 @@ h3.toggle-issue::after {
 .section.outer.c-palepink h2 {
   border-bottom: 8px solid white; }
 
+.subsection.centered {
+  text-align: center; }
+
 #title {
   margin-bottom: 40px; }
 
@@ -216,15 +219,6 @@ h3.toggle-issue::after {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#jesse-with-student {
-  background-image: url("../images/jesse-with-student.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right; }
-
-@media (min-width: 1300px) {
-  #jesse-with-student {
-    margin: -100px 0; } }
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center; }
@@ -287,6 +281,9 @@ a:hover {
 img {
   max-width: 100%;
   height: auto; }
+
+.centered img {
+  margin: auto; }
 
 .logo-img {
   height: 100px;
