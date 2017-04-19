@@ -145,9 +145,11 @@ h3.toggle-issue::after {
     padding: 20px; }
 
   #navbar.mobile-open .navbar-item {
-    display: inline-block;
-    padding: 20px;
-    text-align: center; } }
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 40px; } }
 @media (min-width: 1300px) {
   .section.inner.with_subsections {
     display: flex;

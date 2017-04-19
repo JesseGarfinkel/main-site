@@ -171,12 +171,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <script>
-$('.scrollLink').click(function(e) {
-  var destinationId = $(e.target).attr('data-destination');
-   $('html, body').animate({
-    scrollTop: $(destinationId).offset().top
-   }, 500);
-});
 
 $('.toggle-issue').click(function (e) {
   var destinationId = $(e.target).attr('data-issue');
@@ -206,5 +200,14 @@ $('.navbar-hamburger').click(function (e) {
     $(targetEl).addClass('mobile-closed');
   }
 
+});
+
+$('.navbar-item.sub-item').click(function (e) {
+  var targetEl = $('#navbar');
+
+  if (targetEl.hasClass('mobile-open')) {
+    $(targetEl).removeClass('mobile-open');
+    $(targetEl).addClass('mobile-closed');
+  }
 });
 </script>
