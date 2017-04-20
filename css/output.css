@@ -206,6 +206,9 @@ h3.toggle-issue::after {
 .subsection.extra-padding {
   padding: 40px 80px; }
 
+.sub-sub-section {
+  margin-bottom: 80px; }
+
 #title {
   margin-bottom: 40px; }
 
