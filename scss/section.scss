@@ -67,6 +67,10 @@
   border-bottom: 8px solid white;
 }
 
-.subsection.centered {
-  text-align: center;
+.subsection.no-padding, .section.no-padding {
+  padding: 0;
+}
+
+.subsection.extra-padding {
+  padding: 40px 80px;
 }
