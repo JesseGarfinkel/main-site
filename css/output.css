@@ -281,7 +281,8 @@ p {
 
 a {
   color: #24127a;
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
 
 a:hover {
   font-weight: bold; }
