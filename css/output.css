@@ -41,7 +41,13 @@ a.issues-navlink {
   padding: 10px;
   margin: 10px;
   color: black;
-  display: inline-block; }
+  display: inline-block;
+  transition: background-color 0.25s ease; }
+
+a.issues-navlink:hover {
+  font-style: italic;
+  font-weight: normal;
+  background-color: #cdeaf7; }
 
 div.issue_details {
   display: none; }

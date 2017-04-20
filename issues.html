@@ -392,6 +392,19 @@ $('.toggle-issue').click(function (e) {
 
 });
 
+
+
+$('.issues-navlink').click(function (e) {
+  e.preventDefault();
+  var destinationId = $(e.target).attr('data-destination');
+  var destination = $('[data-issue="' + destinationId + '"]');
+
+  $('html, body').animate({
+    scrollTop: destination.offset().top - 60
+  }, 1000);
+});
+
+
 $('.navbar-hamburger').click(function (e) {
   var targetEl = $('#navbar');
 
