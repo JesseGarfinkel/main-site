@@ -27,6 +27,22 @@ html, body {
 .c-darkblue {
   background-color: #24127a; }
 
+#issues-title {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  color: black;
+  display: inline-block; }
+
+a.issues-navlink {
+  font-size: 1.4em;
+  background-color: #f5c8b5;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  display: inline-block; }
+
 div.issue_details {
   display: none; }
 
