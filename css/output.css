@@ -315,7 +315,9 @@ img {
 
 img#jesse-with-students {
   margin: auto;
-  display: block; }
+  display: block;
+  max-width: 722px;
+  transform: scaleX(-1); }
 
 .logo-img {
   height: 100px;
