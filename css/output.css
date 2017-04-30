@@ -190,6 +190,9 @@ h3.toggle-issue::after {
   padding: 100px 0;
   width: 100%; }
 
+@media (min-width: 1850px) {
+  div#lower-sections {
+    margin-top: 750px; } }
 @media (min-width: 1000px) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;

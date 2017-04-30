@@ -22,6 +22,12 @@
   width: 100%;
 }
 
+@media (min-width: $breakpoint-xl) {
+  div#lower-sections {
+    margin-top: 750px;
+  }
+}
+
 @media (min-width: $breakpoint-m) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;
