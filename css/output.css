@@ -168,10 +168,10 @@ h3.toggle-issue::after {
 
   #navbar.mobile-open .navbar-item {
     clear: both;
-    padding: 5px;
+    padding: 0 0 10px 0;
     text-align: center;
     position: relative;
-    bottom: 40px; } }
+    bottom: 20px; } }
 @media (min-width: 1300px) {
   .section.inner.with_subsections {
     display: flex;
