@@ -3,9 +3,35 @@ img {
   height: auto;
 }
 
-img#jesse-with-students {
-  margin: auto;
-  display: block;
-  max-width: 722px;
-  transform: scaleX(-1);
+@media (max-width: $breakpoint-m) {
+  img#jesse-with-students {
+    display: none;
+    margin: auto;
+    display: block;
+    transform: scaleX(-1);
+  }
+
+  #jesse-with-students-background {
+    background-image: none;
+  }
+}
+
+@media (min-width: $breakpoint-m) {
+  #jesse-with-students-background {
+    background-image: url('../images/jesse-with-student.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  img#jesse-with-students {
+    display: none;
+  }
+}
+
+#street-photo {
+  background-image: url('../images/jesse-street.jpg');
+  margin: -80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

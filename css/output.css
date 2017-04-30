@@ -243,12 +243,6 @@ h3.toggle-issue::after {
 .platform div {
   margin: 0 30px; }
 
-#street-photo {
-  background-image: url("../images/jesse-street.jpg");
-  margin: -80px 0;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center; }
@@ -313,11 +307,29 @@ img {
   max-width: 100%;
   height: auto; }
 
-img#jesse-with-students {
-  margin: auto;
-  display: block;
-  max-width: 722px;
-  transform: scaleX(-1); }
+@media (max-width: 1000px) {
+  img#jesse-with-students {
+    display: none;
+    margin: auto;
+    display: block;
+    transform: scaleX(-1); }
+
+  #jesse-with-students-background {
+    background-image: none; } }
+@media (min-width: 1000px) {
+  #jesse-with-students-background {
+    background-image: url("../images/jesse-with-student.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; }
+
+  img#jesse-with-students {
+    display: none; } }
+#street-photo {
+  background-image: url("../images/jesse-street.jpg");
+  margin: -80px 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .logo-img {
   height: 100px;
