@@ -5,13 +5,21 @@ img {
 
 @media (max-width: $breakpoint-m) {
   img#jesse-with-students {
-    display: none;
     margin: auto;
     display: block;
     transform: scaleX(-1);
   }
 
+  img#jesse-street-photo {
+    margin: auto;
+    display: block;
+  }
+
   #jesse-with-students-background {
+    background-image: none;
+  }
+
+  #street-photo {
     background-image: none;
   }
 }
@@ -24,14 +32,14 @@ img {
     margin: 0;
   }
 
-  img#jesse-with-students {
+  #street-photo {
+    background-image: url('../images/jesse-street.jpg');
+    margin: -80px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  img.mobile-only {
     display: none;
   }
-}
-
-#street-photo {
-  background-image: url('../images/jesse-street.jpg');
-  margin: -80px 0;
-  background-size: cover;
-  background-repeat: no-repeat;
 }

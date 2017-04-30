@@ -22,7 +22,7 @@
   width: 100%;
 }
 
-@media (min-width: $breakpoint-s) {
+@media (min-width: $breakpoint-m) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;
     z-index: -10;
@@ -36,6 +36,11 @@
 
   #scroll-to-learn-more {
     display: inherit;
+    font-style: italic;
+    margin-top: 8px;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 1.3em;
   }
 
   .subsection {
@@ -45,9 +50,9 @@
   }
 }
 
-@media (max-width: $breakpoint-s) {
+@media (max-width: $breakpoint-m) {
   .section.outer#landing-section {
-    padding: 140px 0;
+    padding: 80px 0 0 0;
   }
 
   #scroll-to-learn-more {

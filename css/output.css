@@ -190,7 +190,7 @@ h3.toggle-issue::after {
   padding: 100px 0;
   width: 100%; }
 
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;
     z-index: -10;
@@ -201,15 +201,20 @@ h3.toggle-issue::after {
     margin-top: 800px; }
 
   #scroll-to-learn-more {
-    display: inherit; }
+    display: inherit;
+    font-style: italic;
+    margin-top: 8px;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 1.3em; }
 
   .subsection {
     flex-grow: 1;
     flex-basis: 50%;
     padding: 0 80px; } }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section.outer#landing-section {
-    padding: 140px 0; }
+    padding: 80px 0 0 0; }
 
   #scroll-to-learn-more {
     display: none; }
@@ -309,12 +314,18 @@ img {
 
 @media (max-width: 1000px) {
   img#jesse-with-students {
-    display: none;
     margin: auto;
     display: block;
     transform: scaleX(-1); }
 
+  img#jesse-street-photo {
+    margin: auto;
+    display: block; }
+
   #jesse-with-students-background {
+    background-image: none; }
+
+  #street-photo {
     background-image: none; } }
 @media (min-width: 1000px) {
   #jesse-with-students-background {
@@ -323,14 +334,14 @@ img {
     background-repeat: no-repeat;
     margin: 0; }
 
-  img#jesse-with-students {
-    display: none; } }
-#street-photo {
-  background-image: url("../images/jesse-street.jpg");
-  margin: -80px 0;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  #street-photo {
+    background-image: url("../images/jesse-street.jpg");
+    margin: -80px 0;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
+  img.mobile-only {
+    display: none; } }
 .logo-img {
   height: 100px;
   background-repeat: no-repeat;
