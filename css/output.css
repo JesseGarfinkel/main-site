@@ -27,19 +27,39 @@ html, body {
 .c-darkblue {
   background-color: #24127a; }
 
+#issues-nav {
+  border-bottom: 1px solid #f5c8b5;
+  padding-bottom: 25px;
+  background-color: white;
+  z-index: 50; }
+
+#issues-nav .section {
+  max-width: 100%;
+  text-align: center; }
+
+@media (min-width: 1000px) {
+  #issues-nav {
+    position: fixed; }
+
+  #what-is-the-platform {
+    position: relative;
+    top: 180px; } }
+@media (max-width: 1000px) {
+  #what-is-the-platform {
+    padding-top: 25px; } }
 #issues-title {
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold;
   padding: 10px;
-  margin: 10px 10px 10px 0;
+  margin: 5px 0;
   color: black;
   display: inline-block; }
 
 a.issues-navlink {
-  font-size: 1.4em;
+  font-size: 1.35em;
   background-color: #f5c8b5;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: black;
   display: inline-block;
   transition: background-color 0.25s ease; }
@@ -118,7 +138,7 @@ h3.toggle-issue::after {
   cursor: pointer; }
 
 #navbar {
-  z-index: 10;
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;

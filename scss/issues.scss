@@ -1,17 +1,46 @@
+#issues-nav {
+  border-bottom: 1px solid $palepink;
+  padding-bottom: 25px;
+  background-color: white;
+  z-index: 50;
+}
+
+#issues-nav .section {
+  max-width: 100%;
+  text-align: center;
+}
+
+@media (min-width: $breakpoint-m) {
+  #issues-nav {
+    position: fixed;
+  }
+
+  #what-is-the-platform {
+    position: relative;
+    top: 180px;
+  }
+}
+
+@media (max-width: $breakpoint-m) {
+  #what-is-the-platform {
+    padding-top: 25px;
+  }
+}
+
 #issues-title {
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold;
   padding: 10px;
-  margin: 10px 10px 10px 0;
+  margin: 5px 0;
   color: black;
   display: inline-block;
 }
 
 a.issues-navlink {
-  font-size: 1.4em;
+  font-size: 1.35em;
   background-color: $palepink;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: black;
   display: inline-block;
   transition: background-color 0.25s ease;
