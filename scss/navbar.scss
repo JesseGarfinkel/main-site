@@ -6,11 +6,35 @@
   background-color: $paleblue;
 }
 
-#navbar div a {
+#navbar div {
   color: black;
   text-decoration: none;
   font-family: $sans-serif;
   font-size: 1.1em;
+}
+
+#navbar .slogan-item {
+  font-weight: 300;
+}
+
+.slogan-item img {
+  float: left;
+  margin-right: 18px;
+}
+
+#slogan {
+  float: left;
+}
+
+@media (min-width: $breakpoint-m) {
+  .slogan-item img {
+    position: relative;
+    bottom: 5px;
+  }
+
+  #responsive-slogan-break {
+    display: none;
+  }
 }
 
 #navbar .navbar-hamburger {
@@ -25,7 +49,7 @@
   display: block;
 }
 
-@media screen and (min-width: $breakpoint-navbar) {
+@media screen and (min-width: $breakpoint-m) {
 
   #navbar {
     display: flex;
@@ -38,7 +62,9 @@
     display: block;
     padding: 20px;
     text-align: center;
+  }
 
+  #navbar .link-item {
     flex: 1 1 auto;
     -webkit-flex: 1 1 auto;
   }
@@ -49,11 +75,22 @@
 
 }
 
-@media screen and (max-width: $breakpoint-navbar) {
+@media screen and (max-width: $breakpoint-m) {
 
-  #navbar.mobile-closed .navbar-item {
+  #navbar.mobile-closed .link-item {
     display: none;
   }
+
+  #navbar .slogan-item {
+    float: left;
+    display: block;
+    padding: 20px 0 20px 20px;
+    font-size: 1em;
+
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+  }
+
 
   #navbar .navbar-hamburger {
     float: right;
@@ -61,7 +98,7 @@
     padding: 20px;
   }
 
-  #navbar.mobile-open .navbar-item {
+  #navbar.mobile-open .link-item {
     clear: both;
     padding: 0 0 10px 0;
     text-align: center;
