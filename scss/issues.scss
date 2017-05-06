@@ -15,14 +15,14 @@
     position: fixed;
   }
 
-  #what-is-the-platform {
+  #platform {
     position: relative;
     top: 180px;
   }
 }
 
 @media (max-width: $breakpoint-m) {
-  #what-is-the-platform {
+  #platform {
     padding-top: 25px;
   }
 }

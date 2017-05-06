@@ -41,11 +41,11 @@ html, body {
   #issues-nav {
     position: fixed; }
 
-  #what-is-the-platform {
+  #platform {
     position: relative;
     top: 180px; } }
 @media (max-width: 1000px) {
-  #what-is-the-platform {
+  #platform {
     padding-top: 25px; } }
 #issues-title {
   font-size: 1.9em;
