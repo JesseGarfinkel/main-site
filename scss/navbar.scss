@@ -91,7 +91,6 @@
     -webkit-flex: 1 1 auto;
   }
 
-
   #navbar .navbar-hamburger {
     float: right;
     display: block;
@@ -100,7 +99,7 @@
 
   #navbar.mobile-open .link-item {
     clear: both;
-    padding: 0 0 10px 0;
+    padding: 20px 0 0 0;
     text-align: center;
     position: relative;
     bottom: 20px;
