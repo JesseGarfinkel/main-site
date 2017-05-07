@@ -239,7 +239,7 @@ h3.toggle-issue::after {
 
 @media (min-width: 1850px) {
   div#lower-sections {
-    margin-top: 750px; } }
+    margin-top: 775px; } }
 @media (min-width: 1000px) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;
@@ -248,12 +248,12 @@ h3.toggle-issue::after {
     top: 61px; }
 
   div#lower-sections {
-    margin-top: 650px; }
+    margin-top: 775px; }
 
   #scroll-to-learn-more {
     display: inherit;
     font-style: italic;
-    margin-top: 8px;
+    margin: 90px 0;
     padding: 4px 8px;
     text-align: center;
     font-size: 1.3em; }
@@ -301,6 +301,9 @@ h3.toggle-issue::after {
 .platform div {
   margin: 0 30px; }
 
+@media (min-width: 1000px) {
+  #title {
+    margin-top: 80px; } }
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center; }

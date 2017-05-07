@@ -12,3 +12,9 @@
 .platform div {
   margin: 0 30px;
 }
+
+@media (min-width: $breakpoint-m) {
+  #title {
+    margin-top: 80px;
+  }
+}
