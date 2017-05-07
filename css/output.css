@@ -409,4 +409,9 @@ img {
 .footer {
   text-align: center; }
 
+.footer img {
+  height: 60px;
+  width: 60px;
+  margin: 0 0 30px 0; }
+
 /*# sourceMappingURL=output.css.map */
