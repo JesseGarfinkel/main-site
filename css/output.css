@@ -144,27 +144,19 @@ h3.toggle-issue::after {
   width: 100%;
   background-color: #cdeaf7; }
 
-#navbar div {
+.navbar-item {
   color: black;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em; }
 
-#navbar .slogan-item {
-  font-weight: 300; }
-
-.slogan-item img {
-  float: left;
-  margin-right: 18px; }
-
-#slogan {
-  float: left; }
+#slogan-txt {
+  font-weight: 300;
+  flex: 0;
+  text-align: left;
+  font-size: 14px; }
 
 @media (min-width: 1000px) {
-  .slogan-item img {
-    position: relative;
-    bottom: 5px; }
-
   #responsive-slogan-break {
     display: none; } }
 #navbar .navbar-hamburger {
@@ -184,15 +176,19 @@ h3.toggle-issue::after {
     -webkit-flex-wrap: wrap;
     /* Safari 6.1+ */ }
 
-  #navbar .navbar-item {
+  .link-item {
     float: left;
     display: block;
-    padding: 20px;
-    text-align: center; }
-
-  #navbar .link-item {
+    padding: 30px;
+    text-align: center;
     flex: 1 1 auto;
     -webkit-flex: 1 1 auto; }
+
+  #slogan-img {
+    padding: 15px 15px 15px 20px; }
+
+  #slogan-txt {
+    padding: 15px 20px 15px 15px; }
 
   #navbar .navbar-hamburger {
     display: none; } }
