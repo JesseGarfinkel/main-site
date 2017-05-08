@@ -157,7 +157,7 @@ h3.toggle-issue::after {
   font-size: 14px; }
 
 @media (min-width: 1100px) {
-  #responsive-slogan-break {
+  .responsive-slogan-break {
     display: none; } }
 #navbar .navbar-hamburger {
   cursor: pointer; }
