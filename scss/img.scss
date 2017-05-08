@@ -30,6 +30,10 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   #street-photo {
