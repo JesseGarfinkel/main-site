@@ -247,9 +247,14 @@ h3.toggle-issue::after {
 @media (min-width: 1850px) {
   div#lower-sections {
     margin-top: 775px; } }
+@media (max-width: 500px) {
+  .section.outer#landing-section {
+    padding: 200px 0 0 0; } }
+@media (min-width: 500px) and (max-width: 500px) {
+  .section.outer#landing-section {
+    padding: 45px 0 80px 0; } }
 @media (min-width: 1100px) {
   .section.outer#landing-section {
-    padding: 45px 0 80px 0;
     z-index: -10;
     position: fixed;
     top: 61px; }
@@ -273,9 +278,6 @@ h3.toggle-issue::after {
   .subsection.extra-padding {
     padding: 40px 80px; } }
 @media (max-width: 1100px) {
-  .section.outer#landing-section {
-    padding: 80px 0 0 0; }
-
   #scroll-to-learn-more {
     display: none; }
 
