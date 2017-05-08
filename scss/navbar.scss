@@ -20,7 +20,26 @@
   font-size: 14px;
 }
 
+@media (max-width: $breakpoint-s) {
+  #slogan-txt, #slogan-img {
+    text-align: center;
+    float: none;
+    padding: 0 0 25px 0;
+  }
+
+  #slogan-img {
+    margin-top: 50px;
+  }
+
+}
+
 @media (min-width: $breakpoint-m) {
+  .responsive-slogan-break {
+    display: none;
+  }
+}
+
+@media (max-width: $breakpoint-s) {
   .responsive-slogan-break {
     display: none;
   }
@@ -75,7 +94,7 @@
     display: none;
   }
 
-  #navbar .slogan-item {
+  .slogan-item {
     float: left;
     display: block;
     padding: 20px 0 20px 20px;
@@ -86,9 +105,9 @@
   }
 
   #navbar .navbar-hamburger {
-    float: right;
-    display: block;
-    padding: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
 
   #navbar.mobile-open .link-item {
