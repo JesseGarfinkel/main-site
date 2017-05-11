@@ -389,8 +389,8 @@ img {
 @media (min-width: 1100px) {
   #jesse-with-students-background {
     background-image: url("../images/jesse-with-student.JPG");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     margin: 0;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
