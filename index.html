@@ -254,5 +254,15 @@ $('.navbar-item.navbar-item').click(function (e) {
     $(targetEl).addClass('mobile-closed');
   }
 });
+
+$('.issues-navlink').click(function (e) {
+  e.preventDefault();
+  var destinationId = $(e.target).attr('data-destination');
+  var destination = $('[data-issue="' + destinationId + '"]');
+
+  $('html, body').animate({
+    scrollTop: destination.offset().top - 60
+  }, 1000);
+});
 </script>
 <script type='text/javascript' src='//d1aqhv4sn5kxtx.cloudfront.net/actiontag/at.js'></script>
