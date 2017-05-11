@@ -158,12 +158,14 @@ h3.toggle-issue::after {
 
 @media (max-width: 500px) {
   #slogan-txt, #slogan-img {
-    text-align: center;
+    padding: 15px; }
+
+  #slogan-txt {
     float: none;
-    padding: 10px 0 15px 0; }
+    text-align: center; }
 
   #slogan-img {
-    padding: 15px 0 10px 0; } }
+    float: left; } }
 @media (min-width: 1100px) {
   .responsive-slogan-break {
     display: none; } }
