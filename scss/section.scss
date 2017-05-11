@@ -28,9 +28,20 @@
   }
 }
 
-@media (min-width: $breakpoint-m) {
+@media (max-width: $breakpoint-s) {
+  .section.outer#landing-section {
+    padding: 200px 0 0 0;
+  }
+}
+
+@media (min-width: $breakpoint-s) and (max-width: $breakpoint-s) {
   .section.outer#landing-section {
     padding: 45px 0 80px 0;
+  }
+}
+
+@media (min-width: $breakpoint-m) {
+  .section.outer#landing-section {
     z-index: -10;
     position: fixed;
     top: 61px;
@@ -61,10 +72,6 @@
 }
 
 @media (max-width: $breakpoint-m) {
-  .section.outer#landing-section {
-    padding: 80px 0 0 0;
-  }
-
   #scroll-to-learn-more {
     display: none;
   }
