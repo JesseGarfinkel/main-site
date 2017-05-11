@@ -20,7 +20,7 @@
   font-size: 14px;
 }
 
-@media (max-width: $breakpoint-s) {
+@media (max-width: $breakpoint-xs) {
   #slogan-txt, #slogan-img {
     padding: 15px;
   }
@@ -34,6 +34,17 @@
     float: left;
   }
 }
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-s) {
+  #slogan-img {
+    padding: 15px 15px 5px 15px;
+  }
+
+  #slogan-txt {
+    padding: 5px 15px 15px 15px;
+  }
+}
+
 
 @media (min-width: $breakpoint-m) {
   .responsive-slogan-break {
