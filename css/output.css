@@ -402,12 +402,12 @@ img {
   #jesse-with-students-background {
     background-image: url("../images/Teaching2.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     margin: 0;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1); }
+    transform: scaleX(1); }
 
   #street-photo {
     background-image: url("../images/jesse-street.jpg");
