@@ -273,7 +273,7 @@ h3.toggle-issue::after {
   #scroll-to-learn-more {
     display: inherit;
     font-style: italic;
-    margin: 90px 0;
+    margin: 60px 0;
     padding: 4px 8px;
     text-align: center;
     font-size: 1.3em; }
