@@ -249,7 +249,7 @@ h3.toggle-issue::after {
   margin: auto; }
 
 .section.outer {
-  padding: 20px 0;
+  padding: 40px 0;
   width: 100%; }
 
 @media (min-width: 1850px) {
